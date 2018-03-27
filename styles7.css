@@ -1,0 +1,104 @@
+body {
+	background-color: #1A1A1A;
+	font-family: 'Archivo Black', sans-serif;
+	/*font-family: 'Heebo', sans-serif;*/
+	max-height: 300px;
+
+}
+
+h1 {
+	font-size: 40pt;
+	font-family: 'Archivo Black', sans-serif;
+	margin: 0px;
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 15pt;
+	font-family: 'Archivo Black', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	color: black;
+	text-align: center;
+}
+
+.col-one {
+	color: white;
+	width: 12.5%;
+	height: 100%;
+	text-align: left;
+	position: absolute;
+	left: 0px;
+    top: 0px;
+}
+
+.col-two {
+	color: white;
+	width: 12.5%;
+	height: 100%;
+	text-align: left;
+	position: absolute;
+	left: 12.5%;
+    top: 0px;
+}
+
+.col-three {
+	background-color: white;
+	color: white;
+	width: 62.5%;
+	height: 100%;
+	text-align: left;
+	position: absolute;
+	left: 25%;
+    top: 0px;
+}
+
+.col-four {
+	color: white;
+	width: 12.5%;
+	height: 100%;
+	text-align: left;
+	position: absolute;
+	left: 87.5%;
+    top: 0px;
+}
+
+.backgrounds {
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: -1;
+}
+
+#bg-one, #bg-two, #bg-three, #bg-four {
+	width: 100%;
+	height: 100%;
+}
+
+.divider {
+	width: 75%;
+	height: 4px;
+	background-color: black;
+	margin: auto;
+}
+
+#ibra-full {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+	padding: 25px;
+}
+
+.ibra-cap {
+	text-align: left;
+	width: 75%;
+	font-size: 10pt;
+	font-family: 'Archivo Black', sans-serif;
+	margin-top: 25px;
+	margin-left: 12.5%;
+	color: black;
+}

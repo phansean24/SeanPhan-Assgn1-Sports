@@ -1,0 +1,177 @@
+body {
+	background-color: #1A1A1A;
+	font-family: 'Archivo Black', sans-serif;
+	/*font-family: 'Heebo', sans-serif;*/
+	max-height: 500px;
+}
+h1 {
+	font-size: 75pt;
+	font-family: 'Archivo Black', sans-serif;
+	margin: 0px;
+	height: 125px;
+}
+
+h2 {
+	font-size: 15pt;
+	font-family: 'Archivo Black', sans-serif;
+	margin: 0px;
+}
+
+h3 {
+	font-size: 25pt;
+	font-family: 'Archivo Black', sans-serif;
+	margin: 0px;
+}
+
+p {
+	color: #F2F2F2;
+	font-size: 15pt;
+	font-family: 'Archivo Black', sans-serif;
+	width: 90%;
+}
+
+.backgrounds {
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: -1;
+}
+
+.darken {
+	opacity: 0.2;
+}
+
+.hidden {
+	display: none;
+}
+
+#bg-one, #bg-two, #bg-three, #bg-four {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#two-bg-one, #two-bg-two, #two-bg-three, #two-bg-four {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+/*#bg-two {
+	width: 100%;
+	left: 0px;
+	z-index: -1;
+}*/
+
+.col-one {
+	color: white;
+	width: 25%;
+	height: 100%;
+	text-align: left;
+	position: absolute;
+	left: 0px;
+    top: 0px;
+}
+
+.col-two {
+	color: white;
+	width: 25%;
+	text-align: left;
+	position: absolute;
+	left: 25%;
+    top: 0px;
+}
+
+.col-three {
+	color: white;
+	width: 25%;
+	text-align: left;
+	position: absolute;
+	left: 50%;
+    top: 0px;
+}
+
+.col-four {
+	color: white;
+	width: 25%;
+	text-align: left;
+	position: absolute;
+	left: 75%;
+    top: 0px;
+}
+
+.two-col-one {
+	color: white;
+	width: 25%;
+	height: 100%;
+	text-align: left;
+	position: absolute;
+	left: 0px;
+	top: 720px;
+}
+
+.two-col-two {
+	color: white;
+	width: 25%;
+	height: 100%;
+	text-align: left;
+	position: absolute;
+	left: 25%;
+	top: 720px;
+}
+
+.two-col-three {
+	color: white;
+	width: 25%;
+	height: 100%;
+	text-align: left;
+	position: absolute;
+	left: 50%;
+	top: 720px;
+}
+
+.two-col-four {
+	color: white;
+	width: 25%;
+	height: 100%;
+	text-align: left;
+	position: absolute;
+	left: 75%;
+	top: 720px;
+}
+
+#h-one, #h-two, #h-three, #h-four {
+	z-index: 1;
+	padding: 15px;
+}
+
+#d-one, #d-two, #d-three, #d-four {
+	margin-top: 250px;
+	z-index: 1;
+	padding: 15px;
+	position: relative;
+  	bottom: 0;
+ 	left: 0;
+}
+
+#two-h-one, #two-h-two, #two-h-three, #two-h-four {
+	z-index: 1;
+	padding: 15px;
+}
+
+#two-d-one, #two-d-two, #two-d-three, #two-d-four {
+	margin-top: 250px;
+	z-index: 1;
+	padding: 15px;
+	position: relative;
+  	bottom: 0;
+ 	left: 0;
+}
+
+
+
+
+
+
+
